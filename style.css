@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+ 
+ *{
+    padding: 0px;
+    margin: 0px;
+    font-family: Ubuntu;
+   
+   
+}
+
+#nav{
+    padding: 30px 140px 0px;
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    color: rgb(255, 0, 51);
+    display: flex;
+    gap: 20px;
+   a{ text-decoration: none;
+    color: aliceblue;
+    padding: 5px;
+   }
+   a:hover{
+    color: red;
+    font-weight: lighter;
+   }
+}
+
+#title{
+    font-weight:bold;
+    padding-right: 450px;
+    font-size: 40px;
+
+}
+#head{
+   height: 700px;
+   width: 100%;
+   background-image:url(flavien-GJuXN4uyB2U-unsplash.jpg);
+   background-position: center;
+   background-size:cover;
+
+
+}
+#gradient{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.266);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.038) 25%, rgb(0, 0, 0) 98% );
+    height: 100%;
+}
+#red{
+    color: rgb(255, 0, 51);
+}
+#text{
+    height: 40%;
+    width: 500px;
+    color: aliceblue;
+    font-size: 50px;
+    text-align: right;
+   padding: 200px 90px 0px 800px;
+
+    #text2{
+        width: 100%;
+        height: 20px;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+   
+   
+}
+#about{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    background-color:black;
+    color: aliceblue;
+    font-size: larger;
+
+}
+#us{
+    margin: 70px 0px 0px 100px;
+   width: 600px;
+ 
+}
+#about-text1{
+  
+    font-size:xx-large;
+    color: rgb(255, 0, 51);
+
+}
+#about-text2{
+    width: 600px;
+    font-size: smaller;
+    font-weight: lighter;
+    color: aliceblue;
+}
+
+#img{
+    height: 100%;
+    width: 900px;
+    background-image: url(Gemini_Generated_Image_7m2jqf7m2jqf7m2j.jpeg);
+    background-position: center;
+    background-size:cover;
+    margin-left: 100px;
+   
+ 
+}
+#grad2{
+    width: 100%;
+    
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 30%, rgb(0, 0, 0) 98% );
+    height: 100%;
+
+}
+#cars{
+    height: 2170px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+#header{
+    color: aliceblue;
+    text-align: center;
+    font-size: 60px;
+   padding:  50px;
+}
+#rev{
+    width: 100%;
+    height: 500px;
+    color: aliceblue;
+    font-size: 40px;
+}
+#revuelto{ 
+    display: flex;
+    height: 500px;
+    width: 100%;
+    #dis1{
+        width: 50%;
+        padding: 90px 0px 0px 90px;
+    }
+  
+    #r2{
+        padding-top: 10px;
+        font-size: 25px;
+    }
+    #rimg{
+        background-image: url(lamborghini_revuelto_4k-3840x2160.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        width: 700px;
+        #rgrad{
+            width: 100%;
+    
+            background: linear-gradient(to left, rgba(0, 0, 0, 0.045) 30%, rgb(0, 0, 0) 98% );
+            height: 100%;
+        
+        }
+    }
+}
+#stingray{
+    height: 500px;
+    width: 100%;
+  
+    display: flex;
+
+    #simg{
+        height: 100%;
+        width: 50%;
+       background-image: url(2020_chevrolet_corvette_stingray_z51_5k_4-2560x1440.jpg);
+       background-position: center;
+       background-size: cover;
+       #sgrad{
+        width: 100%;
+    
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.045) 30%, rgb(0, 0, 0) 98% );
+        height: 100%;
+
+       }
+    }
+    #sting{
+        width: 50%;
+        color: aliceblue;
+        text-align: right;
+        padding: 70px 85px 0px 0px ;
+
+    }
+    #s1{
+        color: aliceblue;
+        font-size: 40px;
+    }
+    #s2{
+        padding-top: 10px;
+        font-size: 25px;
+
+    }
+
+
+
+}
+
+
+#camaro{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    #cam{
+        color: aliceblue;
+        padding: 90px 0px 0px 90px;
+        width: 50%;
+        
+    }
+    #c1{
+        color: aliceblue;
+        font-size: 40px;
+
+    }
+    #c2{
+        padding-top: 10px;
+        font-size: 25px;
+
+    }
+    #cimg{
+        background-image: url(2018_chevrolet_camaro_zl1_nascar_race_car-2560x1440.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        width: 700px;
+        #cgrad{
+            width: 100%;
+    
+            background: linear-gradient(to left, rgba(0, 0, 0, 0.045) 30%, rgb(0, 0, 0) 98% );
+            height: 100%;
+        
+
+        }
+    }
+}
+
+#mclaren{
+    display: flex;
+    height: 500px;
+    width: 100%;
+   #mimg{
+        background-image: url(720S-Spider-Wallpaper-2-1920x1080_crop-16x9.webp);
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        width: 50%;
+      
+        #mgrad{
+            width: 100%;
+    
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.045) 30%, rgb(0, 0, 0) 98% );
+            height: 100%;
+        }
+     }
+     #laren{
+        height: 100%;
+        width: 50%;
+        color: aliceblue;
+        text-align: right;
+        padding: 60px 85px 10px 0px ;
+    }
+    #m1{
+        color: aliceblue;
+        font-size: 40px;
+
+    }
+    #m2{
+        padding-top: 10px;
+        font-size: 25px;
+    }
+}
+#extra{
+    height: 700px;
+    width: 100%;
+   
+    background-image: url(blake-meyer-CRNbHjNaljo-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    #egrad{
+        width: 100%;
+    
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.452) 10%, rgb(0, 0, 0,0.452) 90% );
+        height: 100%;
+    }
+
+}
+#quote{
+    height: 30%;
+    width: 40%;
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+    font-weight: lighter;
+    padding: 200px 100px 100px 100px;
+    margin-left: 350px;
+}
+#section{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+#foot{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    #inventory{
+        height: 100%;
+        width: 50%;
+
+        background-image: url(goh-rhy-yan-y8CtjK0ej6A-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        #inventgrad{ 
+            width: 100%;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.452) 10%, rgb(0, 0, 0,0.452) 90% );
+            height: 100%;
+            color: aliceblue;
+            #intext{
+                font-size: 50px;
+                text-align: center;
+                padding: 150px 0px 100px 0px ;
+            }
+
+        }
+    }
+    #careers
+    {
+        height: 100%;
+        width: 50%;
+        background-image: url(why-kei-8e2gal_GIE8-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        #careersgrad{
+            width: 100%;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.452) 10%, rgb(0, 0, 0,0.452) 90% );
+            height: 100%;
+            color: aliceblue;
+            #careerstext{
+                font-size: 50px;
+                text-align: center;
+                padding: 150px 0px 0px 0px ;
+                
+            }
+            #careerstext2{
+                width :50%;
+                text-align: center;
+                padding: 0px 0px 0px 210px;
+             
+            }
+
+            }
+
+    }
+  
+}
+#endline{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    
+    #endtext{
+        height: 50%;
+        width: 75%;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 100px;
+        text-align: center;
+        padding: 30px 200px ;
+    }
+
+}
+#copyrigth{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    #righttext{
+        height: 40%;
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 20px;
+    }
+}
+
+
+
+
+
